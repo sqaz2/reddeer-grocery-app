@@ -1,0 +1,10 @@
+node_modules
+.env
+.env.local
+*.log
+dist
+data/stores.json
+web/dist
+web/node_modules
+api/node_modules
+api/dist

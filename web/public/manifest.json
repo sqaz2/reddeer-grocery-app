@@ -1,0 +1,9 @@
+{
+  "name": "Red Deer Grocery Deals",
+  "short_name": "RD Grocery",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#174A7C",
+  "icons": []
+}

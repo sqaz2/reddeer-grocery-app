@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.keyboard-aware-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.keyboard-aware-root.keyboard-open {
+  padding-bottom: max(50vh, env(safe-area-inset-bottom));
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
